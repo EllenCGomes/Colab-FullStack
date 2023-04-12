@@ -4,7 +4,7 @@
 Concluído :heavy_check_mark: 
 
 ## Sobre
-**Processo Seletivo FullStack Colab** 
+**Processo Seletivo - Oportunidade FullStack Colab** 
 
 **Tecnologias:** React and Node
 
