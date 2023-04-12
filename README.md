@@ -12,6 +12,12 @@ Finished :heavy_check_mark:
 - Build a web interface where it shows a list of users, fetched from https://randomuser.me/ API
 
 **Notes and Observations: **
+- detalhe um pouco como foi esse processo para você, o que você gostou, o que não gostou, se tentou um paradigma ou framework novos...qualquer coisa, esse vai ser o canal onde você vai poder expor sua parte técnica então capricha ;)
+
+## Project
+
+
+
 
 
 
