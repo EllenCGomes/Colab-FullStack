@@ -1,0 +1,66 @@
+.mainStyle {
+    padding: 0 150px
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+    padding: 20px 150px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .05);
+}
+
+.navBarImg {
+    display: inline;
+    padding-left: 10px;
+    margin-right: 150px;
+    width: 100px;
+    height: 32px;
+}
+
+.purpleColor {
+    color: #811AC0
+}
+
+.navBlueColor {
+    color: #041B72
+}
+
+.pageTitle {
+    font-size: 1.5em;
+}
+
+.primaryInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inline {
+    display: inline;
+    width: 15em;
+}
+
+.userTitle {
+    font-weight: 600;
+}
+
+.info {
+    font-weight: 100;
+}
+
+.button {
+    background-color: #041B72;
+    color: #fff;
+    border: 1px solid #041B72;
+    border-radius: 5px;
+}
+
+.onHover {
+    background-color: #4f6bcf;
+    color: #fff;
+    border: 1px solid #4f6bcf;
+    border-radius: 5px;
+}
