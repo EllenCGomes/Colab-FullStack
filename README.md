@@ -16,6 +16,11 @@ Finished :heavy_check_mark:
 
 ## Project
 
+<img src="/img/web.png" height="250"/>
+<img src="/img/mobile.png" height="250"/>
+
+
+
 
 
 
