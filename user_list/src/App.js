@@ -17,9 +17,13 @@ const App = () => {
   return (
     <div>
       <NavBar />
-      <p className="navBlueColor mainStyle">Esta na duvida e quer de saber mais sobre o <span className="purpleColor">Colab</span>? Converse com alguns de nossos agentes!</p>
-      {users.map(user =>
-        <User key={user.email} user={user} />)}
+      <p className="navBlueColor mainPadding pageTitle">Está na dúvida e quer de saber mais sobre o <span className="purpleColor">Colab</span>?<br />
+        Converse com alguns de nossos agentes!</p>
+      <div className="userListContainer mainPadding">
+        {users.map(user =>
+          <User key={user.email} user={user} />)}
+      </div>
+
     </div>
   );
 }

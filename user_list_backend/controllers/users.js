@@ -1,16 +1,16 @@
 const getUsers = async (request, response, next) => {
 
     try {
-        const { results } = await (await fetch("https://randomuser.me/api/?results=10&noinfo")).json()
+        const { results } = await (await fetch("https://randomuser.me/api/?results=50&noinfo")).json()
 
         const data = results.map(item => {
             return {
                 name: `${item.name.first} ${item.name.last}`,
                 gender: item.gender === "female" ? "Feminino" : "Masculino",
-                location: `${item.location.city}, ${item.location.state}, ${item.location.country} - ${item.location.postcode}`,
+                location: `${item.location.city}, ${item.location.state}, ${item.location.country}`,
                 email: item.email,
                 age: item.dob.age,
-                registered: item.registered.date.split("T")[0],
+                registered: item.registered.date.split("-")[0],
                 cell: item.cell,
                 nat: item.nat
             }
