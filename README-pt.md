@@ -9,7 +9,7 @@ Concluído :heavy_check_mark:
 **Tecnologias:** React and Node
 
 **Objetivo: **
-- Build a web interface where it shows a list of users, fetched from https://randomuser.me/ API
+- Criar uma interface web que liste usuários e seus detalhes utilizando a API https://randomuser.me/
 
 **Aprendizados e Observações: **
 - Decidi desenvolver essa interface utilizando React e Node que são as tecnologias que estou aprendendo no momento e gostaria de colocá-las em prática com um projeto externo ao curso que realizo para analisar meu desenvolvimento.
